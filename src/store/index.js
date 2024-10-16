@@ -9,6 +9,12 @@ export const mainStore = defineStore("mainData", {
       // 新闻类别
       defaultNewsArr: [
         {
+          label: "历史上的今天",
+          name: "history",
+          order: 0,
+          show: true,
+        },
+        {
           label: "哔哩哔哩",
           name: "bilibili",
           order: 0,
