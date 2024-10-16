@@ -152,6 +152,12 @@ export const mainStore = defineStore("mainData", {
           order: 23,
           show: true,
         },
+        {
+          label: "51cto",
+          name: "51cto",
+          order: 24,
+          show: true,
+        },
       ],
       newsArr: [],
       // 链接跳转方式
